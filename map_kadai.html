@@ -1,0 +1,19 @@
+<body>
+    <h1>通ったルートを保存し描写する</h1>
+    <!----------スタート、ストップボタン追加----------------->
+    <button id="start_btn"> ルート情報記録スタート</button>
+    <button id="stop_btn">ルート情報記録ストップ</button>
+    <!-----00:ルート表示ボタンを追加------->
+    <button id="write_btn">ルート表示</button>
+
+    <!------Direction Module入手------------->
+    <div class="directionsContainer">
+        <div id="directionsPanel"></div>
+        <div id="directionsItinerary"></div>
+    </div>
+    <div id="myMap"></div>
+    
+</body>
+<!------bingmaps起動-------------->
+<script src='https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=Ais9Xrj_NmK3_0daOifceVvblcWXp72dVEkV4OvcmNRc92q5X6dfDxRggPgR0ske' async defer></script>
+<script src='map_kadai.js'></script>
